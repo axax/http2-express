@@ -1,0 +1,9 @@
+bower_components
+node_modules
+coverage
+build
+dist
+.idea
+**/.DS_Store
+.vertx
+log.txt

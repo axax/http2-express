@@ -1,0 +1,26 @@
+{
+  "name": "http2-express",
+  "version": "1.0.0",
+  "description": "HTTP and HTTP/2 Server with Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [
+    "Express",
+    "HTTP",
+    "HTTP2",
+    "Node",
+    "Spdy"
+  ],
+  "author": "Simon Schärer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.1",
+    "spdy": "^3.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
